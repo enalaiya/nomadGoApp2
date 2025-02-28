@@ -15,7 +15,7 @@ function App() {
       .catch((error) => {
         console.error("There was an error!", error);
       });
-  }, [data]); // this is not great
+  }, [data]);
 
   return (
     <div
